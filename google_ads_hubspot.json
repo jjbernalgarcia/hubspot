@@ -1,0 +1,430 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2024-11-08 19:51:48",
+    "containerVersion": {
+        "path": "accounts/6091873848/containers/112466259/versions/0",
+        "accountId": "6091873848",
+        "containerId": "112466259",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/6091873848/containers/112466259",
+            "accountId": "6091873848",
+            "containerId": "112466259",
+            "name": "www.analyticsengine.co",
+            "publicId": "GTM-TTQ4KG8",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1681403985813",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6091873848/containers/112466259/workspaces?apiLink=container",
+            "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": false,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true,
+                "supportTransformations": false
+            },
+            "tagIds": [
+                "GTM-TTQ4KG8"
+            ]
+        },
+        "tag": [
+            {
+                "accountId": "6091873848",
+                "containerId": "112466259",
+                "tagId": "623",
+                "name": "Google Ads - Google Tag",
+                "type": "googtag",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "tagId",
+                        "value": "Update this"
+                    }
+                ],
+                "fingerprint": "1731092142554",
+                "firingTriggerId": [
+                    "2147479573"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6091873848",
+                "containerId": "112466259",
+                "tagId": "624",
+                "name": "Google Ads - Conversion Linker",
+                "type": "gclidw",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableCrossDomain",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableUrlPassthrough",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableCookieOverrides",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1731092167035",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6091873848",
+                "containerId": "112466259",
+                "tagId": "626",
+                "name": "Google Ads - Remarketing Tag",
+                "type": "sp",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableConversionLinker",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableDynamicRemarketing",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionCookiePrefix",
+                        "value": "_gcl"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "{{Google Ads - Conversion ID}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "customParamsFormat",
+                        "value": "NONE"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "rdp",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1731092232221",
+                "firingTriggerId": [
+                    "2147479573"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6091873848",
+                "containerId": "112466259",
+                "tagId": "629",
+                "name": "Google Ads - Lead",
+                "type": "awct",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableNewCustomerReporting",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableConversionLinker",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableProductReporting",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEnhancedConversion",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cssProvidedEnhancedConversionValue",
+                        "value": "{{User-Provided Data}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionCookiePrefix",
+                        "value": "_gcl"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableShippingData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "{{Google Ads - Conversion ID}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionLabel",
+                        "value": "edit_this"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "rdp",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1731092455354",
+                "firingTriggerId": [
+                    "627"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6091873848",
+                "containerId": "112466259",
+                "tagId": "630",
+                "name": "Hubspot Listener",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script>\n(function() {\n  window.addEventListener('message', function(event) {\n    if (event.data.type === 'hsFormCallback' && event.data.eventName === 'onFormReady') {\n      window.dataLayer.push({\n        event: 'hubspotFormLoaded'\n      });\n    }\n\n    if (event.data.type === 'hsFormCallback' && event.data.eventName === 'onFormSubmitted') {\n      window.dataLayer.push({\n        event: 'hubspot_form_submitted',\n        email: event.data.data.submissionValues.email,\n        form_id: event.data.id,\n        form_name: event.data.data.submissionValues.product__vivion_,\n        form_vertical: event.data.data.submissionValues.vertical_dropdown,\n        form_data: event.data\n\n      });\n    }\n  });\n})();\n</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1731093151639",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6091873848",
+                "containerId": "112466259",
+                "tagId": "633",
+                "name": "Google Ads - User-Provided Data Event",
+                "type": "awud",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "userDataVariable",
+                        "value": "{{User-Provided Data}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableConversionLinker",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionCookiePrefix",
+                        "value": "_gcl"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "{{Google Ads - Conversion ID}}"
+                    }
+                ],
+                "fingerprint": "1731094461522",
+                "firingTriggerId": [
+                    "627"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "6091873848",
+                "containerId": "112466259",
+                "triggerId": "627",
+                "name": "Hubspot Form Submission",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "hubspot_form_submitted"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{hubspot_form_id}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "edit_this"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1731095376354"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "6091873848",
+                "containerId": "112466259",
+                "variableId": "543",
+                "name": "Email",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "email"
+                    }
+                ],
+                "fingerprint": "1731093219220",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6091873848",
+                "containerId": "112466259",
+                "variableId": "625",
+                "name": "Google Ads - Conversion ID",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "Edit this"
+                    }
+                ],
+                "fingerprint": "1731092214240",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6091873848",
+                "containerId": "112466259",
+                "variableId": "628",
+                "name": "User-Provided Data",
+                "type": "awec",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "mode",
+                        "value": "MANUAL"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "email",
+                        "value": "{{Email}}"
+                    }
+                ],
+                "fingerprint": "1731092395100",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6091873848",
+                "containerId": "112466259",
+                "variableId": "632",
+                "name": "hubspot_form_id",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "form_id"
+                    }
+                ],
+                "fingerprint": "1731094029136",
+                "formatValue": {}
+            }
+        ],
+        "fingerprint": "1731095508727",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6091873848/containers/112466259/versions/0?apiLink=version"
+    }
+}
